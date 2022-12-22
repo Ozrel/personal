@@ -88,15 +88,17 @@ hr {
 .right-bamboo {
   position: absolute;
   left: 60%;
-  top: 46%;
+  top: 53%;
   max-height: 150px;
+  z-index: 3;
 }
 
 .left-bamboo {
   position: absolute;
   right: 60%;
-  top: 43%;
+  top: 54%;
   max-height: 140px;
+  z-index: 3;
 }
 
 .panda {
@@ -107,7 +109,7 @@ hr {
 
 .center {
   position: absolute;
-  z-index: 1;
+  z-index: 2;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%)
@@ -177,4 +179,75 @@ p {
   color: #555a66;
   font-family: 'Montserrat', sans-serif;
   font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .hut {
+    width: 250px;
+    height: auto;
+    top: 10%;
+  }
+
+  .panda {
+    width: 150px;
+    height: auto;
+  }
+
+  .left-bamboo {
+    width: 70px;
+    height: auto;
+    top: 56%;
+    left: 70%;
+    z-index: 3;
+  }
+
+  .right-bamboo {
+    width: 75px;
+    height: auto;
+    top: 56%;
+    left: 15%;
+    z-index: 3;
+  }
+
+  h1 {
+    padding-top: 350px;
+    font-size: 3rem;
+  }
+
+  .job {
+    font-size: 2rem;
+  }
+
+  .intro {
+    width: 95%;
+    font-size: 0.75rem;
+  }
+
+  h2 {
+    padding-top: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  .codingtime, .code-img {
+    width: auto;
+    height: 90px;
+  }
+
+  .skill-row {
+    width: 95%;
+    text-align: left;
+  }
+
+  .contact-message {
+    width: 85%;
+  }
 }
