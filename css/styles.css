@@ -25,10 +25,11 @@ h1, h2 {
 }
 
 .job {
-  margin-top: 0;
+  padding-bottom: 20px;
 }
 
 h3 {
+  text-align: left;
   font-family: 'Montserrat', sans-serif;
   color: #414952;
 }
@@ -74,37 +75,23 @@ hr {
 }
 
 .skill-row {
-  width: 50%;
-  margin: 0 auto 100px auto;
+  width: 70%;
+  margin: 0 auto 150px auto;
   text-align: justify;
+
 }
 
 .codingtime, .code-img {
-  max-width: 30%;
+  width: 200px;
+  height: 200px;
   float: left;
   margin-right: 30px;
 }
 
-.right-bamboo {
-  position: absolute;
-  left: 60%;
-  top: 53%;
-  max-height: 150px;
-  z-index: 3;
-}
-
-.left-bamboo {
-  position: absolute;
-  right: 60%;
-  top: 54%;
-  max-height: 140px;
-  z-index: 3;
-}
-
 .panda {
-  top: 38%;
+  top: 18%;
   height: auto;
-  max-width: 250px;
+  max-width: 450px;
 }
 
 .center {
@@ -121,7 +108,7 @@ p {
 
 .intro {
   width: 40%;
-  margin: 40px auto 60px;
+  margin: 20px auto 60px;
 }
 
 .contact-message {
@@ -189,24 +176,8 @@ p {
   }
 
   .panda {
-    width: 150px;
+    width: 250px;
     height: auto;
-  }
-
-  .left-bamboo {
-    width: 70px;
-    height: auto;
-    top: 56%;
-    left: 70%;
-    z-index: 3;
-  }
-
-  .right-bamboo {
-    width: 75px;
-    height: auto;
-    top: 56%;
-    left: 15%;
-    z-index: 3;
   }
 
   h1 {
@@ -238,7 +209,7 @@ p {
   }
 
   .codingtime, .code-img {
-    width: auto;
+    width: 90px;
     height: 90px;
   }
 
